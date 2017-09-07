@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context="com.example.manas.talneo_event.CREW">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="265dp"
+        android:layout_height="341dp"
+        android:text="NITEESH RAMOLA \t (+91-8800796598)\n
+RAJAT RATHOUR \t (+91-7838250997)\n
+SUBHRA JYOTI \t (+91-8373990591)\n
+SAURABH PRADHAN \t (+91-8802887880\n
+GAURAV YADAV \t (+91-9599925481)\n\n\n
+
+FOR ANY FURTHURE QUERIES REACH OUT US IN MAIL  \n info@talneo.com"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="83dp" />
+</android.support.constraint.ConstraintLayout>
