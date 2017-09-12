@@ -48,15 +48,14 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="95dp"
-        android:layout_height="87dp"
-        android:background="@mipmap/crew"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
+        android:layout_width="117dp"
+        android:layout_height="112dp"
+        android:background="@mipmap/candc"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="339dp"
-        android:layout_marginRight="251dp" />
+        android:layout_marginTop="314dp"
+        android:layout_marginRight="240dp" />
+    />
 
     <TextView
         android:id="@+id/textView"
@@ -94,4 +93,18 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="339dp"
         android:layout_marginRight="33dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="THE CREW"
+        android:textAlignment="center"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="403dp"
+        android:layout_marginRight="234dp" />
+    />
 </android.support.constraint.ConstraintLayout>
