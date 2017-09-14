@@ -7,20 +7,21 @@
     android:weightSum="1"
     tools:context="com.example.manas.talneo_event.MainActivity"
     tools:layout_editor_absoluteY="81dp"
-    tools:layout_editor_absoluteX="0dp">
+    tools:layout_editor_absoluteX="0dp"
+    android:background="@mipmap/look">
 
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="255dp"
-        android:layout_height="112dp"
+        android:layout_width="340dp"
+        android:layout_height="123dp"
         app:srcCompat="@mipmap/wp"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="32dp"
-        android:layout_marginRight="66dp" />
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="36dp" />
 
     <Button
         android:id="@+id/button"
@@ -29,6 +30,7 @@
         android:layout_height="50dp"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
+
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="252dp"
@@ -62,12 +64,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MADE WITH LOVE BY SILICON ROOTS"
+        android:textColor="#ffffff"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="570dp"
-        android:layout_marginRight="73dp" />
+        android:layout_marginRight="130dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -78,8 +81,10 @@
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="180dp"
-        android:layout_marginRight="97dp" />
+        android:layout_marginTop="183dp"
+        android:layout_marginRight="63dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/button4"
@@ -87,11 +92,12 @@
         android:layout_height="83dp"
         android:background="@mipmap/evmt"
 
+
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="339dp"
+        android:layout_marginTop="350dp"
         android:layout_marginRight="33dp" />
 
     <TextView
@@ -106,5 +112,17 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="403dp"
         android:layout_marginRight="234dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:background="@mipmap/lll"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="547dp"
+        android:layout_marginRight="51dp" /><![CDATA[
+
     />
+]]>
 </android.support.constraint.ConstraintLayout>

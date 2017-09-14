@@ -33,14 +33,11 @@
             android:label="CREW" />
         <activity
             android:name=".MAIL"
-            android:label="mail">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".GALLERY" />
+            android:label="mail"></activity>
+        <activity
+            android:name=".GALLERY"
+            android:label="GALLERY" />
+        <activity android:name=".webpage"></activity>
     </application>
 
 </manifest>
