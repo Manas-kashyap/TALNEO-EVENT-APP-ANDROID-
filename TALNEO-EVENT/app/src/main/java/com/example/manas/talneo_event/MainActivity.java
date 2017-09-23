@@ -42,6 +42,18 @@ public class MainActivity extends AppCompatActivity {
 
                 }
             });
+
+            Button c = (Button) findViewById(R.id.button6);
+            c.setOnClickListener(new View.OnClickListener(){
+
+                public void onClick(View v)
+                {
+                    //sync();
+                    Intent k = new Intent(v.getContext(), webpage.class);
+                    startActivity(k);
+
+                }
+            });
         }
         else{
             showNetDisabledAlertToUser(MainActivity.this);
@@ -129,7 +141,17 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        Button c = (Button) findViewById(R.id.button6);
+        c.setOnClickListener(new View.OnClickListener(){
 
+            public void onClick(View v)
+            {
+                //sync();
+                Intent k = new Intent(v.getContext(), webpage.class);
+                startActivity(k);
+
+            }
+        });
 
 
     }

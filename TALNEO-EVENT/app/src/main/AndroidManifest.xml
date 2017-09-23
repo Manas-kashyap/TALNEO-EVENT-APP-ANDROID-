@@ -37,7 +37,8 @@
         <activity
             android:name=".GALLERY"
             android:label="GALLERY" />
-        <activity android:name=".webpage"></activity>
+        <activity android:name=".webpage"
+            android:label="TALNEO SITE"></activity>
     </application>
 
 </manifest>

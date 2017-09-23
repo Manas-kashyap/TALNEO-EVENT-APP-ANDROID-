@@ -8,7 +8,7 @@
     tools:context="com.example.manas.talneo_event.MainActivity"
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp"
-    android:background="@mipmap/look">
+  android:background="@mipmap/look">
 
 
     <ImageView
